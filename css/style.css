@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to right,rgba(1, 41, 41, 0.65), rgba(1, 61, 14, 0.65));
+    background: linear-gradient(to right,rgba(223, 17, 17, 0.65), rgba(17, 223, 86, 0.65));
     margin: 0%;
 }
 header{
@@ -121,15 +121,16 @@ button:hover{
 #h2{
     margin-bottom: 20px;
     letter-spacing: 0.2px;
-    color:coral;
+    color:rgb(131, 46, 15);
 }
 #p{
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    color: bisque;
+    color: rgb(17, 10, 1);
+    font-weight: 700;
 }
 #div{
     margin: 30px 30px 100px;
-    color: yellowgreen;
+    color: rgb(63, 14, 44);
 }
