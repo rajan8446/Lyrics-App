@@ -74,6 +74,6 @@ async function getLyrics(artist, songTitle) {
                             <div id="div"><h1>Thank You🙂</h1></div>
                         `
     }catch(err){
-        alert("Lyrics not available for this song !!!!");
+        alert("Lyrics Not Found!!!!");
     }
 }
