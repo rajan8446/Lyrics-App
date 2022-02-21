@@ -12,7 +12,7 @@ header{
     background: linear-gradient(to right,rgba(221, 28, 92, 0.65), rgba(114, 233, 223, 0.65)),
                 url(../img/guitar.jpg);
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     border: none;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,16 +27,20 @@ header{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 60%;
 }
 .container h1{
     margin-bottom: 20px;
     letter-spacing: 2px;
     text-align: center;
+    width: 100%;
+    font-size: 200%;
+    
 }
 form{
     position: relative;
     display: flex;
-    width: 500px;
+    width: 100%;
 }
 input{
     width: 100%;
@@ -133,4 +137,64 @@ button:hover{
 #div{
     margin: 30px 30px 100px;
     color: rgb(63, 14, 44);
+}
+
+@media screen and (max-width: 550px){
+    .container h1{
+        text-align: center;
+        width: 100%;
+        font-size: 100%;
+        
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    input{
+        width: 100%;
+        padding: 5px;
+    }
+    button{
+        display: relative;
+        top: 45%;
+        left: 35%;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .song-list li{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .song-list li span{
+        width: 100px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 550px){
+    .container h1{
+        text-align: center;
+        width: 100%;
+        font-size: 70%;
+        
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    input{
+        width: 100%;
+        text-align: center;
+    }
+    button{
+        display: relative;
+        top: 45%;
+        left: 25%;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+    }
 }
